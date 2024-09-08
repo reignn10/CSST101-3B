@@ -1,6 +1,6 @@
 # CSST101-3B
 
-[Introduction Video](https://www.youtube.com/watch?v=mrne0eQhIUc)  
+[Introduction Video](https://www.youtube.com/watch?v=mUMcwxoxHbg)  
 *Click the image to watch the video.*
 
 
