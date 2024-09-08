@@ -1,8 +1,7 @@
 # CSST101-3B
 
 [Introduction Video](https://www.youtube.com/watch?v=mUMcwxoxHbg)  
-*Click the image to watch the video.*
-
+*Click to watch the video.*
 
 # Introduction to AI and Knowledge Representation in Beauty Industry
 
@@ -59,6 +58,9 @@ AI systems need effective knowledge representation to learn, reason, and make de
 
 
 # Propositional and Predicate Logic Implementation
+
+[Colab](https://colab.research.google.com/drive/1-AjmB3gCRsVy3-YMkSHdUkaQoLo6zIy4?usp=sharing)  
+*Click to go to file.*
 
 ## 1. Propositional Logic Operations
 This section implements basic propositional logic operations such as **AND**, **OR**, **NOT**, and **IMPLIES** using Python functions:
