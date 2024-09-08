@@ -54,3 +54,47 @@ AI systems need effective knowledge representation to learn, reason, and make de
 - Li, F., Zhang, Y., & Liu, W. (2023). "AI-Powered Personalization in the Beauty Industry." *Journal of AI Applications*, 45(2), 189-202.
 
 
+
+
+
+
+# Propositional and Predicate Logic Implementation
+
+## 1. Propositional Logic Operations
+This section implements basic propositional logic operations such as **AND**, **OR**, **NOT**, and **IMPLIES** using Python functions:
+- `and_operation(p, q)` returns `True` if both `p` and `q` are true.
+- `or_operation(p, q)` returns `True` if either `p` or `q` is true.
+- `not_operation(p)` returns `True` if `p` is false.
+- `implies_operation(p, q)` represents the logical implication (p → q), which is equivalent to `not p or q`.
+
+### Example:
+For `p = True` and `q = False`, the operations return:
+- **AND**: False
+- **OR**: True
+- **NOT**: False
+- **IMPLIES**: False
+
+## 2. Evaluating Logical Statements
+The `evaluate` function allows users to evaluate logical expressions dynamically. It takes a logical statement as a string and a dictionary of truth values for variables.
+
+### Example:
+Evaluating the statement `implies_operation(p, q)` where `p = True` and `q = False` returns `False`.
+
+## 3. Predicate Logic with Quantifiers
+This section introduces **predicate logic** with two common quantifiers: `forall` (universal quantifier) and `exists` (existential quantifier).
+- `forall(predicate, domain)` returns `True` if the predicate holds true for all elements in the domain.
+- `exists(predicate, domain)` returns `True` if the predicate holds true for at least one element in the domain.
+
+### Example:
+A predicate function `is_even(x)` checks whether a number is even. Using this predicate:
+- **forall** over the domain `[1, 2, 3, 4, 5]` returns `False` (not all numbers are even).
+- **exists** over the same domain returns `True` (there is at least one even number).
+
+## 4. AI Agent Making Decisions using Logic
+The `ai_decision` function demonstrates a simple AI agent that makes decisions based on environmental conditions.
+
+### Example:
+For the condition `{'is_raining': True, 'is_sunny': False}`, the AI decides to **"Take an umbrella"**.
+
+## Conclusion
+This implementation of propositional and predicate logic in Python provides a basic foundation for logical reasoning and decision-making. The code can be extended to more complex scenarios in AI, including knowledge representation and inference systems.
