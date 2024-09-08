@@ -53,12 +53,4 @@ AI systems need effective knowledge representation to learn, reason, and make de
 - Brachman, R. J., & Levesque, H. J. (2004). *Knowledge Representation and Reasoning*. Elsevier.
 - Li, F., Zhang, Y., & Liu, W. (2023). "AI-Powered Personalization in the Beauty Industry." *Journal of AI Applications*, 45(2), 189-202.
 
----
 
-## Visualizations (Optional)
-
-![Semantic Network](media/semantic_network.png)
-*Example of a semantic network for personalized skincare recommendations.*
-
-![AI Decision Process](media/ai_decision_process.png)
-*Illustration of AI decision-making in the beauty industry.*
